@@ -1,0 +1,103 @@
+
+/* HEADER */
+
+.nav {
+    background-color: red;
+    border : 2px solid black;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.allItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item {
+    border : 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.headTests {
+    color: black;
+}
+
+
+/* BODY */
+
+.body-container {
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+    height: 495px;
+    width: 100%;
+}
+
+
+.mainBlock {
+    display: flex;
+    background-color: aqua;
+    width: 80%;
+}
+
+.block {
+    background-color: aliceblue;
+    text-align: top center;
+    border-right: 15px solid aliceblue;
+    border-left: 15px solid aliceblue;
+}
+
+
+/* ASIDE */
+
+aside {
+    display: flex;
+}
+
+.aside {
+    width: 250px;
+}
+
+.asideTitle {
+    justify-content: top left;
+}
+
+#aside01 {
+    background-color: yellow;
+}
+
+#aside02 {
+    background-color: darkmagenta;
+}
+
+
+/* FOOTER */
+
+.foot {
+    background-color: greenyellow;
+}
+
+.footage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
